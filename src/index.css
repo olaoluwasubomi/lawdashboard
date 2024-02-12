@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.loginImage{
+    background-image:url(/images/photo-lady-justice-holds-a-scale-with-law-books-bg-in-the-background-61553.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;;
+}
+
+.newaccountImage{
+    background-image:url(/images/Symbol-of-Law-and-Justice.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.borderline:nth-child(1){
+    border-right:1px solid rgba(0, 0, 0, 0.5);
+}
+.borderline:nth-child(2){
+    border-right:1px solid rgba(0, 0, 0, 0.5);
+    /* border-color:red; */
+}
+.firstbox{
+    max-height:300px;
+    overflow-y:auto;
+}
